@@ -1,0 +1,85 @@
+@import 'colors';
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #a29191;
+}
+
+.container{
+    width: 1170px;
+    max-width: 1170px;
+
+    .section-hero{
+        height: 200px;
+    }
+
+    .gx-5{
+        --bs-gutter-x: 30px;
+    }
+
+    .gy-5{
+        --bs-gutter-y: 30px;
+    }
+
+    .section-2{
+        height: 200px;
+    }
+
+    .section-3{
+        height: 400px;
+    }
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+
+  .h-200{
+    height: auto;
+      }
+
+.row{
+    --bs-gutter-x: 30px !important;
+    --bs-gutter-y: 30px !important;
+}
+
+.pt-30{
+    padding-top: 30px;;
+}
+
+.img-card{
+    width: 385px;
+    height: 325;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 385px;
+    height: 325px;
+    object-fit: cover;
+  }
+
+  .h-100{
+    height: 200px !important;
+  }
